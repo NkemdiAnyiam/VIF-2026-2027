@@ -6,7 +6,7 @@ import { Header } from '../../../components/Header/Header';
 import { Event } from '../../../components/Event/Event';
 import { EventBox } from '../../../components/EventBox/EventBox';
 import { pastCompanies } from '../../../data/companies';
-import { /*alumniMixer,*/ fairTimes, inPersonFair, mockInterviews, portfolioReviews, professionalismWorkshops, virtualFair } from '../../../data';
+import { /*alumniMixer,*/ fairTimes, inPersonFair, mockInterviews, portfolioReviews, portfolioWorkshops, professionalismWorkshops, virtualFair } from '../../../data';
 import { printEventTimeLong, TimeEvent } from '../../../utils/events';
 // import { Notice } from '../../../components/Notice/Notice';
 
@@ -115,6 +115,23 @@ export function ForStudentsPage(): JSX.Element {
           
           <div className="events">
             <Event
+              eventName="Virtual Portfolio Workshop"
+              eventBoxes={[
+                <EventBox
+                  heading="Fall"
+                  headingLink={portfolioWorkshops.fallLink}
+                  events={portfolioWorkshops.fall}
+                />,
+
+                <EventBox
+                  heading="Spring"
+                  headingLink={portfolioWorkshops.springLink}
+                  events={portfolioWorkshops.spring}
+                />
+              ]}
+            />
+
+            <Event
               eventName="Virtual Portfolio Reviews"
               eventBoxes={[
                 <EventBox
@@ -148,6 +165,7 @@ export function ForStudentsPage(): JSX.Element {
               ]}
             />
 
+            {/* TODO: Ask about mixer */}
             {/* <Event
               eventName="Alumni Mixer"
             >

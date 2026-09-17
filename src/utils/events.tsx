@@ -6,6 +6,7 @@ interface TimeEventProps {
   weekdate: number;
   startTime: Time;
   endTime: Time;
+  additionalText?: string;
 }
 
 export class TimeEvent {
@@ -21,7 +22,9 @@ export class TimeEvent {
   readonly weekday: Day;
   readonly weekdateOrdinal: 'st' | 'nd' | 'rd' | 'th';
 
-  constructor({year, month, weekdate, startTime, endTime}: TimeEventProps) {
+  readonly additionalText: string;
+
+  constructor({year, month, weekdate, startTime, endTime, additionalText = ''}: TimeEventProps) {
     this.year = Number(year);
     this.month = month;
     this.weekdate = weekdate;
@@ -32,6 +35,7 @@ export class TimeEvent {
     this.timeRange = `${startTime}–${endTime}`;
     this.weekday = new Intl.DateTimeFormat('en-US', {weekday: 'long'}).format(this.dateObj) as Day;
     this.weekdateOrdinal = getWeekdateOrdinal(weekdate);
+    this.additionalText = additionalText;
   }
 
   // private get startDate() { return makeDate({year: this.year, month: this.month, weekdate: this.weekdate, time: this.startTime}); }
@@ -66,11 +70,12 @@ export function printEventTimeLong(event: TimeEvent) {
     year,
     timeRange,
     timeZone,
+    additionalText,
   } = event;
 
   return (
     <>
-      {weekday}, {month} {weekdate}<sup>{weekdateOrdinal}</sup>, {year} from {timeRange} {timeZone}
+      {weekday}, {month} {weekdate}<sup>{weekdateOrdinal}</sup>, {year} from {timeRange} {timeZone} {additionalText ? <em>{additionalText}</em> : ''}
     </>
   );
 }

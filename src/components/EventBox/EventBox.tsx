@@ -21,7 +21,7 @@ const generateListItems = (events: TimeEvent[]): JSX.Element[] => {
 };
 
 export function EventBox(props: EventBoxProps): JSX.Element {
-  return (
+  return props.events.length === 0 ? <></> : (
     <div className={`event-box${props.modifiers?.map(modifier => ` event-box--${modifier}`) ?? ''}`}>
       <h4 className="heading-quaternary">
         {

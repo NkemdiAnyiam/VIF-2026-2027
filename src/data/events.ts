@@ -1,47 +1,62 @@
 import { TimeEventWithLinks, TimeEvent } from "../utils/events";
 
 export const virtualFair = new TimeEventWithLinks({
-  year: 2026,
+  year: 2027,
   month: 'February',
   weekdate: 19,
   startTime: '10am',
   endTime: '4pm',
-  studentLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdLn50QRleiRPiihhRnyQfwermXe0bl19i8UFJfcpbLu0uF7Q/viewform?usp=dialog',
-  industryLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdqmJc_Cc5NRitKg2Uh-ylhUyaLYQ8MOCUnowrKAL6A4xZAXw/viewform?usp=dialog',
+  studentLink: 'https://docs.google.com/forms/d/e/1FAIpQLScvviZoeb9_gPYuNtRuIXVfjeABjKNPOU1NDGVOORVb9Z8VVA/viewform?usp=dialog',
+  industryLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfmShax8-rfOlqL-LCQ9Rk9frIIb1gY0Sifi3Q5LvFOcD2afg/viewform?usp=dialog',
   location: 'Discord (register for more details)',
 });
 
 export const inPersonFair = new TimeEventWithLinks({
   year: 2026,
   month: 'February',
-  weekdate: 27,
+  weekdate: 26,
   startTime: '10am',
-  endTime: '4pm',
-  studentLink: 'https://forms.gle/Ycs1E51te6ngWS7Y9',
-  industryLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdqmJc_Cc5NRitKg2Uh-ylhUyaLYQ8MOCUnowrKAL6A4xZAXw/viewform?usp=dialog',
+  endTime: '5pm',
+  studentLink: 'https://docs.google.com/forms/d/e/1FAIpQLScjzR5IybpSkeW9xzxFgQ9scsaitbd5qaZU_1f3aIelch2yJw/viewform?usp=dialog',
+  industryLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfmShax8-rfOlqL-LCQ9Rk9frIIb1gY0Sifi3Q5LvFOcD2afg/viewform?usp=dialog',
   location: 'the TAMU campus in the MSC Gates Ballroom (MSC 2400)',
 });
 
 export const fairTimes = {
-  yearStart: 2025,
-  yearEnd: 2026,
+  yearStart: 2026,
+  yearEnd: 2027,
   get yearEnDashRange() { return `${this.yearStart}–${String(this.yearEnd).substring(2)}`; },
 };
 
-export const professionalismWorkshops = {
-  fallLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeAjNOdMDQEf70mHgucQqP77QBE3Hosry94HKUjbWS8URRN2A/viewform?usp=dialog',
-  springLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe6o45pXKln5V4Sk8GHsA0lFnibxUsu_5Px1pUCD_MswbkLnA/viewform?usp=dialog',
+export const portfolioWorkshops = {
+  fallLink: 'https://docs.google.com/forms/d/e/1FAIpQLSf7Io87UcBUhN6j4_AqZxsU6BZY0opkiv-rrZVdcVOtUdQaGQ/viewform?usp=dialog',
+  springLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfw36CTF-795JLLlOfeu4X6xlA5DKyQu4c7IKPT5Cek3KNFTw/viewform?usp=dialog',
 
   fall: [
-    new TimeEvent({ year: 2025, month: 'September', weekdate: 23, startTime: '10am', endTime: '12pm' }),
-    new TimeEvent({ year: 2025, month: 'September', weekdate: 24, startTime: '10am', endTime: '12pm' }),
-    new TimeEvent({ year: 2025, month: 'September', weekdate: 26, startTime: '3pm', endTime: '5pm' }),
+    new TimeEvent({ year: 2026, month: 'October', weekdate: 23, startTime: '1pm', endTime: '2pm' }),
   ],
 
   spring: [
-    new TimeEvent({ year: 2026, month: 'January', weekdate: 13, startTime: '10am', endTime: '12pm' }),
-    new TimeEvent({ year: 2026, month: 'January', weekdate: 14, startTime: '10am', endTime: '12pm' }),
-    new TimeEvent({ year: 2026, month: 'January', weekdate: 16, startTime: '3pm', endTime: '5pm' }),
+    new TimeEvent({ year: 2027, month: 'January', weekdate: 29, startTime: '3pm', endTime: '5pm',
+      additionalText: `(This event will be combined with our Professionalism Workshop)`
+     }),
+  ]
+};
+
+export const professionalismWorkshops = {
+  fallLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdGs8ZZTn0JWKlazZ1y-Ut4AcPkQe3UPXtKRfREyUZX8N4f5Q/viewform?usp=dialog',
+  springLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe6o45pXKln5V4Sk8GHsA0lFnibxUsu_5Px1pUCD_MswbkLnA/viewform?usp=dialog',
+
+  fall: [
+    new TimeEvent({ year: 2026, month: 'September', weekdate: 22, startTime: '10am', endTime: '11am' }),
+    new TimeEvent({ year: 2026, month: 'September', weekdate: 23, startTime: '10am', endTime: '11am' }),
+    new TimeEvent({ year: 2026, month: 'September', weekdate: 25, startTime: '12pm', endTime: '2pm' }),
+  ],
+
+  spring: [
+    new TimeEvent({ year: 2027, month: 'January', weekdate: 29, startTime: '3pm', endTime: '5pm',
+      additionalText: `(This event will be combined with our Portfolio Workshop)`
+     }),
   ]
 };
 
@@ -59,38 +74,37 @@ export const alumniMixer = new TimeEventWithLinks({
 
 export const portfolioReviews = {
   fall: {
-    studentLink: `https://docs.google.com/forms/d/e/1FAIpQLSfAeNdf3bE3Vq6t__D9vZXutKZImK4eEf4lnVtkoIOKLgO7tw/viewform?usp=dialog`,
-    industryLink: `https://docs.google.com/forms/d/e/1FAIpQLScPY_kMZ6CHcMXwvn6HSiDDOxqtsiRO8OAvt83vj-IGhBWOGA/viewform?usp=dialog`,
+    studentLink: `https://forms.gle/zC8Z24fvKsX5Wacz7`,
+    industryLink: `https://docs.google.com/forms/d/e/1FAIpQLSf-R-y_oqoMjvLP0V4Z6W30XDfUO3r9zWQJ84Keu753OP1M2g/viewform?usp=dialog`,
     events: [
-      new TimeEvent({ year: 2025, month: 'October', weekdate: 17, startTime: '10am', endTime: '4pm' }),
-      new TimeEvent({ year: 2025, month: 'October', weekdate: 18, startTime: '10am', endTime: '4pm' }),
+      new TimeEvent({ year: 2026, month: 'November', weekdate: 6, startTime: '10am', endTime: '4pm' }),
+      new TimeEvent({ year: 2026, month: 'November', weekdate: 7, startTime: '10am', endTime: '4pm' }),
     ]
   },
   
   spring: {
-    studentLink: `https://docs.google.com/forms/d/e/1FAIpQLSeFNRgsp-l8auT_DPu-O-9aKqO7FoPbp4yFcx256cRUaGHGYA/viewform?usp=dialog`,
-    industryLink: `https://docs.google.com/forms/d/e/1FAIpQLSc4UxS6RRwHNyYTHHejFFB8TJIwqL9P38fsip2UI7dy8KLmGQ/viewform?usp=dialog`,
+    studentLink: `https://docs.google.com/forms/d/e/1FAIpQLSceB3MCTRiu98S5O37T-m4GVz42inRUl_dh8weqxzc3MgztSg/viewform?usp=dialog`,
+    industryLink: `https://docs.google.com/forms/d/e/1FAIpQLSdzvEWqCEYPrNPAdKpJEqeA5DnHUCmzDEO3-_FsHxgyIwGf8Q/viewform?usp=sharing&ouid=103333525036132933132`,
     events: [
-      new TimeEvent({ year: 2026, month: 'January', weekdate: 23, startTime: '10am', endTime: '4pm' }),
-      new TimeEvent({ year: 2026, month: 'January', weekdate: 24, startTime: '10am', endTime: '4pm' }),
+      new TimeEvent({ year: 2027, month: 'January', weekdate: 29, startTime: '10am', endTime: '4pm' }),
+      new TimeEvent({ year: 2027, month: 'January', weekdate: 30, startTime: '10am', endTime: '4pm' }),
     ]
   },
 };
 
 export const mockInterviews = {
   fall: {
-    studentLink: `https://docs.google.com/forms/d/e/1FAIpQLSfmtFh3tZtcInAVJHUCXtxGpZ9Ij74I_aWB4cXisRiDBnbelg/viewform?usp=dialog`,
-    industryLink: `https://docs.google.com/forms/d/e/1FAIpQLScC5ZcwFcsMHRlMcoCEB8xvb8SgdQr7tSyZJ8WmjpVejmtXrA/viewform?usp=dialog`,
+    studentLink: ``,
+    industryLink: ``,
     events: [
-      new TimeEvent({ year: 2025, month: 'November', weekdate: 7, startTime: '10am', endTime: '4pm' }),
     ],
   },
   
   spring: {
-    studentLink: `https://docs.google.com/forms/d/e/1FAIpQLSeCc51N3Kms7rslp3sP7TxPGO0jCqO5YDx9BkZZH-R3IWp6uA/viewform?usp=dialog`,
-    industryLink: `https://docs.google.com/forms/d/e/1FAIpQLScHmaBOggcA-fITX3dLc0-cwaKuchmUyjqfqm8SYPZnhhD8fw/viewform?usp=dialog`,
+    studentLink: `https://docs.google.com/forms/d/e/1FAIpQLSdtx_JzNTeeV1hDV-OFCw77RvFCWcoxfvAwOhIhSJh6wJgfYA/viewform?usp=publish-editor`,
+    industryLink: `https://docs.google.com/forms/d/e/1FAIpQLSfPhyWSzzzUFpFqOJbzd0_HaY1ug3NHzBETRJ17H_bJbMdO1g/viewform?usp=sharing&ouid=103333525036132933132`,
     events: [
-      new TimeEvent({ year: 2026, month: 'February', weekdate: 6, startTime: '10am', endTime: '4pm' }),
+      new TimeEvent({ year: 2027, month: 'February', weekdate: 5, startTime: '10am', endTime: '4pm' }),
     ],
   },
 };

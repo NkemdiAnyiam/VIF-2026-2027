@@ -8,7 +8,7 @@ export function Footer(): JSX.Element {
   return (
     <footer className="footer">
       <ul className="footer__links">
-        <FooterLink href="https://discord.gg/F4xU3sG3" ariaLabel={`Visit Discord`}>
+        <FooterLink href="https://discord.gg/29t6yJXyRv" ariaLabel={`Visit Discord`}>
           <LogoDiscord className="footer__icon footer__icon--discord"></LogoDiscord>
         </FooterLink>
 

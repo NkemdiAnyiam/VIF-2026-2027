@@ -3,179 +3,19 @@
 /**** GEN:S id="companies-csv" */
 export const companies = JSON.parse(`[
   {
-    "companyName": "Trio Animation ",
-    "focuses": "Animation, Agentic AI Visual Configurators for Industrial and Manufacturing Verticals",
-    "positionTypes": [
-      "Interns",
-      "Full-time employees"
-    ],
-    "website": "https://www.trioanimation.com",
-    "virtualTimes": "",
-    "inPersonTimes": "10:30 - 11:00, 11:00 - 11:30, 11:30 - 12:00, 12:30 - 1:00, 1:00 - 1:30",
-    "logoUrlCheckString": "Option 2 Logo emailed. "
-  },
-  {
-    "companyName": "RWS Global",
-    "focuses": "Graphic Design, Experiential Design for theme parks, museums, zoos, brand attractions",
-    "positionTypes": [
-      "Interns",
-      "Contract workers",
-      "Freelancers"
-    ],
-    "website": "https://www.rwsglobal.com",
-    "virtualTimes": "10:00 - 10:30, 10:30 - 11:00",
-    "inPersonTimes": "",
-    "logoUrlCheckString": "Option 2"
-  },
-  {
-    "companyName": "Imagine Advertising Studio",
-    "focuses": "Graphic Design, Large format digital printing ",
-    "positionTypes": [
-      "Interns",
-      "Part-time employees",
-      "Contract workers",
-      "Freelancers"
-    ],
-    "website": "imagineadvertisingstudio.com",
-    "virtualTimes": "All Day",
-    "inPersonTimes": "All Day",
-    "logoUrlCheckString": "https://drive.google.com/file/d/1uN3q9WziZWrBfAt5c3wwttCI8vgDRxxB/view?usp=sharing"
-  },
-  {
-    "companyName": "Electronic Arts, EA SPORTS",
-    "focuses": "Animation, Game Development, Graphic Design, Virtual Production",
-    "positionTypes": [
-      "Interns",
-      "Full-time employees"
-    ],
-    "website": "www.ea.com",
-    "virtualTimes": "10:00 - 10:30, 12:30 - 1:00",
-    "inPersonTimes": "",
-    "logoUrlCheckString": "option 2"
-  },
-  {
-    "companyName": "Texas Film Commission",
-    "focuses": "State government organization that assists with all these industries",
-    "positionTypes": [
-      "Interns",
-      "Members"
-    ],
-    "website": "https://gov.texas.gov/film",
-    "virtualTimes": "",
-    "inPersonTimes": "All Day",
-    "logoUrlCheckString": "Option 2"
-  },
-  {
-    "companyName": "Audience Media Group",
-    "focuses": "Graphic Design",
-    "positionTypes": [
-      "Full-time employees",
-      "Part-time employees"
-    ],
-    "website": "https://www.ataudience.com/",
-    "virtualTimes": "All Day",
-    "inPersonTimes": "All Day",
-    "logoUrlCheckString": "https://drive.google.com/file/d/1c9WT5YoshroV2ohTJhOrzxzGEp41ehw7/view?usp=sharing"
-  },
-  {
-    "companyName": "Spartacus Studios LLC",
-    "focuses": "Animation, Game Development, Graphic Design, Virtual Production",
-    "positionTypes": [
-      "Interns",
-      "Contract workers",
-      "Freelancers"
-    ],
-    "website": "https://www.spartacusstudios.com/",
-    "virtualTimes": "10:00 - 10:30, 10:30 - 11:00",
-    "inPersonTimes": "All Day",
-    "logoUrlCheckString": "Option 2"
-  },
-  {
-    "companyName": "AEM Creations ",
-    "focuses": "Interactive Media",
-    "positionTypes": [
-      "Interns",
-      "Contract workers"
-    ],
-    "website": "www.aem2create.com",
-    "virtualTimes": "",
-    "inPersonTimes": "All Day",
-    "logoUrlCheckString": "Option 2"
-  },
-  {
-    "companyName": "Electronic Arts",
-    "focuses": "Game Development",
-    "positionTypes": [
-      "Full-time employees",
-      "Part-time employees",
-      "Contract workers"
-    ],
-    "website": "www.ea.com",
-    "virtualTimes": "All Day",
-    "inPersonTimes": "All Day",
-    "logoUrlCheckString": "https://drive.google.com/file/d/1Rhh5UFghg_qMlByKE6XZAWqrpMEwQz7r/view?usp=drivesdk"
-  },
-  {
-    "companyName": "Captiv Studios",
-    "focuses": "Virtual Production, Interactive Media",
+    "companyName": "Chandler Studios",
+    "focuses": "3D printing, manufacturing and design",
     "positionTypes": [
       "Interns",
       "Full-time employees",
       "Part-time employees",
       "Contract workers",
-      "Freelancers"
+      "Freelancers",
+      "Volunteers"
     ],
-    "website": "https://captivstudios.com/",
-    "virtualTimes": "All Day",
-    "inPersonTimes": "All Day",
-    "logoUrlCheckString": "Option 1"
-  },
-  {
-    "companyName": "PBK",
-    "focuses": "Architecture Visualization ",
-    "positionTypes": [
-      "Interns",
-      "Full-time employees"
-    ],
-    "website": "https://pbk.com/",
+    "website": "https://www.chandlerla.com/",
     "virtualTimes": "",
-    "inPersonTimes": "All Day",
-    "logoUrlCheckString": "https://drive.google.com/drive/folders/18KcJ0zg1vIMxpxuq-01pnO2DapxEPTx-"
-  },
-  {
-    "companyName": "Deloitte",
-    "focuses": "UI/UX, Consulting",
-    "positionTypes": [
-      "Interns",
-      "Full-time employees"
-    ],
-    "website": "https://www.deloitte.com/us/en/careers/careers.html",
-    "virtualTimes": "All Day",
     "inPersonTimes": "",
-    "logoUrlCheckString": "https://upload.wikimedia.org/wikipedia/commons/8/82/DeloitteNewLogo.png"
-  },
-  {
-    "companyName": "Reel FX",
-    "focuses": "Animation",
-    "positionTypes": [
-      "Members"
-    ],
-    "website": "www.reelfx.com",
-    "virtualTimes": "11:00 - 11:30, 11:30 - 12:00, 12:30 - 1:00, 1:00 - 1:30",
-    "inPersonTimes": "",
-    "logoUrlCheckString": "Option 2"
-  },
-  {
-    "companyName": "MOREgroup Inc",
-    "focuses": "Animation, Virtual Production, Interactive Media",
-    "positionTypes": [
-      "Interns",
-      "Full-time employees",
-      "Part-time employees"
-    ],
-    "website": "https://moregroup-inc.com/",
-    "virtualTimes": "",
-    "inPersonTimes": "10:00 - 10:30, 10:30 - 11:00, 11:00 - 11:30, 11:30 - 12:00, 12:30 - 1:00, 1:00 - 1:30, 1:30 - 2:00, 2:00 - 2:30",
     "logoUrlCheckString": "Option 2"
   }
 ]`);

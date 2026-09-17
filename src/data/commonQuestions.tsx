@@ -13,7 +13,7 @@ export type QA = {
 const listWorkshopData = (workshop: TimeEvent): JSX.Element => {
   return (
   <li key={`${workshop.month} ${workshop.weekdate} ${workshop.timeRange}`}>
-    {workshop.weekday}, {workshop.month} {workshop.weekdate}<sup>{workshop.weekdateOrdinal}</sup>, {workshop.timeRange} {workshop.timeZone}
+    {workshop.weekday}, {workshop.month} {workshop.weekdate}<sup>{workshop.weekdateOrdinal}</sup>, {workshop.timeRange} {workshop.timeZone} {workshop.additionalText ? <em>{workshop.additionalText}</em> : ''}
   </li>);
 };
 
@@ -82,11 +82,9 @@ export const studentQAs: QA[] = [
             <strong><a href={professionalismWorkshops.springLink} className="link" target="_blank" rel="noreferrer">Spring {fairTimes.yearEnd}</a></strong>
             <ul>
               {professionalismWorkshops.spring.map(workshop => listWorkshopData(workshop))}
-            </ul>
+            </ul> 
           </li>
         </ul>
-        
-
 
         <p>
           Current students are <strong>required to attend one workshop</strong> if they wish to attend any of the portfolio reviews,
@@ -174,14 +172,14 @@ export const studentQAs: QA[] = [
 ];
 
 export const companyQAs: QA[] = [
-  // {
-  //   question: "Can we review student resumes and portfolios prior to the Industry Fair so we can conduct interviews while we're there?",
-  //   content: (
-  //     <p>
-  //       Certainly! Please include this request on your registration form and we will make them available to you.
-  //     </p>
-  //   ),
-  // },
+  {
+    question: "Can we review student resumes and portfolios prior to the Industry Fair so we can conduct interviews while we're there?",
+    content: (
+      <p>
+        Certainly! Please include this request on your registration form and we will make them available to you.
+      </p>
+    ),
+  },
 
   {
     question: "Is it mandatory to attend both fairs? Or either?",

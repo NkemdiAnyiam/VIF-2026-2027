@@ -63,6 +63,14 @@ export function AboutVizPage(): JSX.Element {
 
             <li className="programs__item">
               <PictureSquare
+                text="Minor in Virtual Production"
+                imageName={'virtual-production-min'}
+                color='purple'
+              />
+            </li>
+
+            <li className="programs__item">
+              <PictureSquare
                 text="Bachelor of Science in Visualization"
                 imageName={'bachelor-of-science-visualization-min'}
                 color='green'
@@ -87,6 +95,14 @@ export function AboutVizPage(): JSX.Element {
 
             <li className="programs__item">
               <PictureSquare
+                text="Ph.D. in Visualization"
+                imageName={'phd-visualization-min'}
+                color='red'
+              />
+            </li>
+
+            <li className="programs__item">
+              <PictureSquare
                 text="Ph.D. in Architecture"
                 imageName={'phd-architecture-min'}
                 color='red'
@@ -102,6 +118,7 @@ export function AboutVizPage(): JSX.Element {
           <div className="paragraphs">
             <p>If you would like to check out our students work, below are our 2021 department reels</p>
           </div>
+          {/* TODO: potentially change these links */}
           <ul className="video-list">
             <li className="video-item">
               <VideoBox

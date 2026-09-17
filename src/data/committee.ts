@@ -29,7 +29,7 @@ export const committeeMembersData: CommitteeMember[] = [
       linkedin: `https://www.linkedin.com/in/kaylamchaney`,
       website: `https://km4artz.myportfolio.com/demo-reel-1`,
     },
-    description: `Kayla McHaney is a junior pursuing a B.S. in Visualization with a minor in Virtual Production. While she is a generalist, her main interests lie in lighting and animation, and she is committed to building a career in the entertainment industry. Kayla actively participates in the Autodesk Design & Make Ambassador program, connecting with industry professionals and students nationwide. Outside of class, she enjoys video games, creating fanart, and keeping up with the latest animated films.`,
+    description: `Kayla McHaney is a senior pursuing a B.S. in Visualization with a minor in Virtual Production. While she is a generalist, her main interests lie in lighting and animation, and she is committed to building a career in the entertainment industry. She is currently a student worker at the Mays Business School, assisting with the development of the Teaching & Learning Innovation virtual production stage. Outside of class, she enjoys video games, creating fanart, and keeping up with the latest animated films.`,
   },
 
   {
@@ -41,31 +41,7 @@ export const committeeMembersData: CommitteeMember[] = [
       linkedin: `https://www.linkedin.com/in/taylornull-ms`,
       website: `https://nullt2003.myportfolio.com`,
     },
-    description: `Taylor Null is a first year graduate student pursuing a M.S. in Visualization at Texas A&M University, where she also completed her undergraduate degree with a minor in game design and development. She enjoys working in Unreal Engine and is interested in lighting and layout for animation and games.  In her free time, she enjoys going to the movies and finding inspiration in film.`,
-  },
-
-  {
-    fullName: `Rachel Hitt`,
-    role: `Event Management Lead`,
-    rank: 2,
-    imageName: `Rachel-Hitt-min`,
-    socials: {
-      linkedin: `https://www.linkedin.com/in/rachel-m-hitt/ `,
-      website: `https://www.rachelhittportfolio.com/`,
-    },
-    description: `Rachel Hitt is a senior at Texas A&M University pursuing a Bachelor of Science in Visualization with a minor in Virtual Production, graduating in 2026. She has gained industry experience working as a Production Assistant on multiple film sets and is passionate about cinematography, directing, and exploring new possibilities in virtual production. In her free time, Rachel enjoys bingeing TV shows and movies, experimenting with photography, and going on coffee runs with friends and family.`,
-  },
-
-  {
-    fullName: `Asia Erwin`,
-    role: `Outreach Lead`,
-    rank: 2,
-    imageName: `Asia-Erwin-min`,
-    socials: {
-      linkedin: `https://www.linkedin.com/in/asia-erwin-971a8a242/`,
-      website: `https://asiaerwin.myportfolio.com/`,
-    },
-    description: `Asia Erwin is a senior undergraduate student pursuing her Bachelors of Science in Visualization with a minor in Game Design. She mainly studies 3D Art for environments and aims to work in the Games or Architecture industries in the future. In her free time, she plays Dungeons and Dragons and other tabletop games.`,
+    description: `Taylor Null is a second year graduate student pursuing a M.S. in Visualization at Texas A&M University, where she also completed her undergraduate degree with a minor in game design and development. She enjoys working in Unreal Engine and is interested in lighting and layout for animation and games.  In her free time, she enjoys going to the movies and finding inspiration in film.`,
   },
 
   {
@@ -81,17 +57,39 @@ export const committeeMembersData: CommitteeMember[] = [
     },
     description: `Nkemdi Anyiam is a graduate student pursuing a PhD in Computer Science at Texas A&M University. He also graduated with his Master's and Bachelor's in Computer Science and double-minored in Art (New Media) and Game Design & Development at A&M as well. He is currently working as a graduate research assistant, focusing primarily on web visualizations, computer science education, and instructional design. His hobbies include Latin dance, rock climbing, gaming, watching anime, and Jiu-Jitsu.`,
   },
-  
+
   {
-    fullName: `Alicia Martinez`,
+    fullName: `KamiRae Terry`,
+    role: `Event Management Lead`,
+    rank: 2,
+    imageName: `KamiRae-Terry-min`,
+    socials: {
+      linkedin: `https://www.linkedin.com/in/kamirae-terry-4b78723b2/`,
+    },
+    description: `KamiRae Terry is a current sophomore pursuing a B.S. in Architecture at Texas A&M University. She has also graduated with her undergraduate degree in Computer Programming from TCC as well. She is currently working as a student assistant for faculty research inside the Department of Architecture and is developing her first student-created animated short film. She enjoys working in Blender as a background and viz-dev artist. Outside of the classroom, she is an avid dancer, and enjoys sipping matcha with her cats.`,
+  },
+
+  {
+    fullName: `Jay Gutierrez`,
+    role: `Outreach Lead`,
+    rank: 2,
+    imageName: `Jay-Gutierrez-min`,
+    socials: {
+      linkedin: `https://www.linkedin.com/in/jacqueline-gutierrez-5291a4250/`,
+      website: `https://jlizethgutierrez.myportfolio.com/`
+    },
+    description: `Jay Gutierrez is currently an undergraduate senior in Visualization at Texas A&M University while also attempting to get her second degree for Criminal Justice at Sam Houston. She is a generalist but has an interest in rigging and surfacing. She loves working in Unreal engine and Surface Painter. Outside of class she often likes to write, create concept art, and watch hockey.`,
+  },
+
+  {
+    fullName: `Manuel Toledo`,
     role: `Marketing Lead`,
     rank: 2,
-    imageName: `Alicia-Martinez-min`,
+    imageName: `Manuel-Toledo-min`,
     socials: {
-      linkedin: `www.linkedin.com/in/alicia-martinez-4238b9256`,
-      website: `https://aliciamartinez.myportfolio.com/`
+      linkedin: `https://www.linkedin.com/in/manueltoledo0730/`,
     },
-    description: `Alicia Martinez is a senior pursuing a B.S. in Visualization with a minor in Graphic Design. She is also the current president of TAMU WIA. She enjoys animation, video games, virtual production, and graphic design.`,
+    description: `Manuel Toledo is a graduate student pursuing a M.S. in Visualization at Texas A&M University, where he also earned his bachelor's degree in Visualization. He currently works as a Graduate Research Assistant at the Soft Interaction Lab, focusing on real-time spatial visualization and interactive system development. His expertise lies at the intersection of 3D environment creation and spatial computing. At school, he also serves as Vice President of the Visualization Graduate Student Association. In his free time, he enjoys doing graphic design as a hobby and is excited to continue creating immersive XR experiences.`,
   },
 
   {
