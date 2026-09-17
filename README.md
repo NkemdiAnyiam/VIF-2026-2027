@@ -7,5 +7,6 @@ My old versions of the Viz Industry Fair site:
 - 2021–2022: https://github.com/NkemdiAnyiam/VIF-2021-2022-Site
 - 2023–2024: https://github.com/NkemdiAnyiam/VIF-2023-2024-Site
 - 2024–2025: https://github.com/NkemdiAnyiam/VIF-2024-2025-Site
+- 2025–2026: https://github.com/NkemdiAnyiam/VIF-2025-2026-Site
 
 I love coding/designing as well as finding opportunities to help other students in general, so being able to build these sites from scratch and help with such a huge event is something I am very proud of.
