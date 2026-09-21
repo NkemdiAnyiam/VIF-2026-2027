@@ -12,7 +12,7 @@ export const virtualFair = new TimeEventWithLinks({
 });
 
 export const inPersonFair = new TimeEventWithLinks({
-  year: 2026,
+  year: 2027,
   month: 'February',
   weekdate: 26,
   startTime: '10am',
@@ -38,14 +38,14 @@ export const portfolioWorkshops = {
 
   spring: [
     new TimeEvent({ year: 2027, month: 'January', weekdate: 29, startTime: '3pm', endTime: '5pm',
-      additionalText: `(This event will be combined with our Professionalism Workshop)`
+      // additionalText: `(This event will be combined with our Professionalism Workshop)`
      }),
   ]
 };
 
 export const professionalismWorkshops = {
   fallLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdGs8ZZTn0JWKlazZ1y-Ut4AcPkQe3UPXtKRfREyUZX8N4f5Q/viewform?usp=dialog',
-  springLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe6o45pXKln5V4Sk8GHsA0lFnibxUsu_5Px1pUCD_MswbkLnA/viewform?usp=dialog',
+  springLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfw36CTF-795JLLlOfeu4X6xlA5DKyQu4c7IKPT5Cek3KNFTw/viewform?usp=dialog',
 
   fall: [
     new TimeEvent({ year: 2026, month: 'September', weekdate: 22, startTime: '10am', endTime: '11am' }),
@@ -54,8 +54,8 @@ export const professionalismWorkshops = {
   ],
 
   spring: [
-    new TimeEvent({ year: 2027, month: 'January', weekdate: 29, startTime: '3pm', endTime: '5pm',
-      additionalText: `(This event will be combined with our Portfolio Workshop)`
+    new TimeEvent({ year: 2027, month: 'January', weekdate: 22, startTime: '3pm', endTime: '5pm',
+      // additionalText: `(This event will be combined with our Portfolio Workshop)`
      }),
   ]
 };
