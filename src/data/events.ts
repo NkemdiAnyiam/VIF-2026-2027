@@ -37,8 +37,8 @@ export const portfolioWorkshops = {
   ],
 
   spring: [
-    new TimeEvent({ year: 2027, month: 'January', weekdate: 29, startTime: '3pm', endTime: '5pm',
-      // additionalText: `(This event will be combined with our Professionalism Workshop)`
+    new TimeEvent({ year: 2027, month: 'January', weekdate: 22, startTime: '3pm', endTime: '5pm',
+      additionalText: `(This event will be combined with our Professionalism Workshop)`
      }),
   ]
 };
@@ -55,7 +55,7 @@ export const professionalismWorkshops = {
 
   spring: [
     new TimeEvent({ year: 2027, month: 'January', weekdate: 22, startTime: '3pm', endTime: '5pm',
-      // additionalText: `(This event will be combined with our Portfolio Workshop)`
+      additionalText: `(This event will be combined with our Portfolio Workshop)`
      }),
   ]
 };
