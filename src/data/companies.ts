@@ -17,6 +17,21 @@ export const companies = JSON.parse(`[
     "virtualTimes": "",
     "inPersonTimes": "",
     "logoUrlCheckString": "Option 2"
+  },
+  {
+    "companyName": "Amerra, Inc.",
+    "focuses": "Animation, Game Development, Graphic Design, Virtual Production, UI/UX, Interactive Media",
+    "positionTypes": [
+      "Interns",
+      "Part-time employees",
+      "Contract workers",
+      "Freelancers",
+      "Researchers"
+    ],
+    "website": "www.amerra.com",
+    "virtualTimes": "",
+    "inPersonTimes": "11:00 - 11:30, 11:30 - 12:00, 12:30 - 1:00",
+    "logoUrlCheckString": "Option 2"
   }
 ]`);
 /**** GEN:E id="companies-csv" */
