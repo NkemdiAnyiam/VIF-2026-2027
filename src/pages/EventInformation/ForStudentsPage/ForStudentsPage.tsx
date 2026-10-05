@@ -70,13 +70,13 @@ export function ForStudentsPage(): JSX.Element {
 
             <ul className="no-gap">
               <li>
-                <strong><a href={professionalismWorkshops.fallLink} className='link' target='_blank' rel="noreferrer">Fall {fairTimes.yearStart}</a></strong>
+                <strong><a href={professionalismWorkshops.fallLink} className='link' target='_blank' rel="noreferrer">Fall {fairTimes.yearFall}</a></strong>
                 <ul>
                   {professionalismWorkshops.fall.map(workshop => listWorkshopData(workshop))}
                 </ul>
               </li>
               <li>
-                <strong><a href={professionalismWorkshops.springLink} className='link' target='_blank' rel="noreferrer">Spring {fairTimes.yearEnd}</a></strong>
+                <strong><a href={professionalismWorkshops.springLink} className='link' target='_blank' rel="noreferrer">Spring {fairTimes.yearSpring}</a></strong>
                 <ul>
                   {professionalismWorkshops.spring.map(workshop => listWorkshopData(workshop))}
                 </ul>
