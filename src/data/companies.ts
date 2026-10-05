@@ -32,6 +32,17 @@ export const companies = JSON.parse(`[
     "virtualTimes": "",
     "inPersonTimes": "11:00 - 11:30, 11:30 - 12:00, 12:30 - 1:00",
     "logoUrlCheckString": "Option 2"
+  },
+  {
+    "companyName": "Powerhouse Animation Studios",
+    "focuses": "Animation",
+    "positionTypes": [
+      "Full-time employees"
+    ],
+    "website": "powerhouseanimation.com",
+    "virtualTimes": "11:30 - 12:00, 12:30 - 1:00, 1:00 - 1:30, 1:30 - 2:00",
+    "inPersonTimes": "",
+    "logoUrlCheckString": "https://drive.google.com/file/d/1hvM19VVbAgA6MYdVl-4_ugk3OHGs0Vgq/view?usp=sharing"
   }
 ]`);
 /**** GEN:E id="companies-csv" */
