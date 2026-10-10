@@ -43,6 +43,18 @@ export const companies = JSON.parse(`[
     "virtualTimes": "11:30 - 12:00, 12:30 - 1:00, 1:00 - 1:30, 1:30 - 2:00",
     "inPersonTimes": "",
     "logoUrlCheckString": "https://drive.google.com/file/d/1hvM19VVbAgA6MYdVl-4_ugk3OHGs0Vgq/view?usp=sharing"
+  },
+  {
+    "companyName": "Texas Film Commission",
+    "focuses": "State Government with resources to help students get jobs in Texas in the following sectors: animation, VFX, video games, XR",
+    "positionTypes": [
+      "Interns",
+      "Members"
+    ],
+    "website": "https://gov.texas.gov/film",
+    "virtualTimes": "",
+    "inPersonTimes": "All Day",
+    "logoUrlCheckString": "option 2"
   }
 ]`);
 /**** GEN:E id="companies-csv" */
