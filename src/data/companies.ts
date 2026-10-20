@@ -70,6 +70,17 @@ export const companies = JSON.parse(`[
     "virtualTimes": "",
     "inPersonTimes": "All Day",
     "logoUrlCheckString": "Option 2"
+  },
+  {
+    "companyName": "AEM Creations",
+    "focuses": "Animation, Graphic Design, Interactive Media",
+    "positionTypes": [
+      "Interns"
+    ],
+    "website": "www.aem2create.com",
+    "virtualTimes": "",
+    "inPersonTimes": "All Day",
+    "logoUrlCheckString": "https://drive.google.com/file/d/1I_mrVU7Irorlj1JW-cOVlDjn4QNPgW_D/view?usp=sharing"
   }
 ]`);
 /**** GEN:E id="companies-csv" */
